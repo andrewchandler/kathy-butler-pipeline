@@ -1,0 +1,8 @@
+# Kathys website as a container
+# These are notes for me and not a readme
+
+Notes:
+docker build -t kathynginx . 
+docker run --name -p80:80 kathy-butler.com
+docker run -p80:80  albionandrew/kathy-butler.com:v1
+
